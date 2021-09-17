@@ -28,7 +28,7 @@ main {
 
 section {
   width: 45%;
-  margin: 20px 20px 0 0;
+  margin: 30px 30px 0 0;
 }
 
 /* Avatar */
@@ -51,7 +51,7 @@ img {
 
 /* About */
 h1 {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 700 bold;
   color: var(--main-color);
 }
@@ -68,6 +68,7 @@ h4 {
 }
 
 .profession {
+  margin-top: 5px;
   font-size: 12px;
   font-weight: normal;
   color: var(--text-color);
@@ -90,10 +91,10 @@ p {
 }
 
 .years {
-  margin-top: 15px;
   color: var(--year-color);
 }
 
 li {
+  margin: 15px 15px 0 0;
   list-style: none;
 }
