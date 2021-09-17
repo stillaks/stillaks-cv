@@ -58,7 +58,7 @@ h1 {
 }
 
 h4 {
-  margin-bottom: 5px; 
+  margin-bottom: 10px; 
   font-weight: 900px;
   color: var(--paragraph-color);
 }
@@ -99,10 +99,14 @@ p {
 li {
   margin-bottom: 15px;
   list-style: none;
-}
-
-/* Skills */
-.skills-list {
   font-size: 12px;
   color: var(--list-color);
+}
+
+/* Certificates */
+.certificates-list li::before {
+  content: "•"; 
+  font-size: 20px;
+  color: var(--main-color);
+  margin: 10px 5px 0px 5px;
 }
