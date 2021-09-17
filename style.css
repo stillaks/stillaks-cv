@@ -5,6 +5,7 @@
   --paragraph-color: #242732;
   --text-color: #4f4f4f;
   --year-color: #BDBDBD;
+  --list-color: #333333;
 }
 
 * {
@@ -97,4 +98,9 @@ p {
 li {
   margin: 15px 15px 0 0;
   list-style: none;
+}
+
+.skills {
+  font-size: 12px;
+  color: var(--list-color);
 }
