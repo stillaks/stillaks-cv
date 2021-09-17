@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
+
+:root {
+  --main-color: #BB7A3B;
+  --paragraph-color: #242732;
+  --text-color: #4f4f4f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: violet;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+/* Avatar */
+.photo {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 330px;
+}
+
+.box {
+  width: 50px;
+  height: 247px;
+  background-color: var(--main-color);
+}
+
+.about {
+  width: 45%;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700 bold;
+  color: var(--main-color);
+}
+
+h4 {
+  font-weight: 900px;
+  color: var(--paragraph-color);
+}
+
+.surname{
+  font-size: 25px;
+  font-weight: normal;
+  color: var(--paragraph-color);
+}
+
+.profession {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--text-color);
+}
+
+p {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: left;
+  color: var(--text-color);
 }
