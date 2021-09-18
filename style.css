@@ -121,3 +121,19 @@ li {
   color: var(--year-color);
   font-size: 12px;
 }
+
+/* Contact */
+.telephone::before {
+  content: url("./images/phone.svg");
+  margin-right: 20px;
+}
+
+.email::before {
+  content: url("./images/mail.svg");
+  margin-right: 20px;
+}
+
+.address::before {
+  content: url("./images/address.svg");
+  margin-right: 20px;
+}
