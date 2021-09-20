@@ -19,25 +19,27 @@ body {
 }
 
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr minmax(10rem, 30%);
+  gap: 2rem;
   width: 80%;
   margin: 0 auto;
-  padding: 2rem 4rem;
+  padding: 2rem 5%;
   -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
 section {
-  margin: 35px 25px 35px 25px;
+  margin: 2rem 0;
 }
 
 .big-part {
-  width: 70%;
+  width: 90%;
 }
 
 .small-part {
-  width: 40%;
+  width: 100%;
 }
 
 .long-underline {
@@ -59,12 +61,12 @@ section {
 }
 
 .photo img {
-  width: 330px;
+  width: clamp(270px, calc(100vw / 1024 * 270), 330px);
 }
 
 .box {
-  width: 50px;
-  height: 247px;
+  width: clamp(30px, calc(100vw / 1024 * 30), 50px);
+  height: clamp(203px, calc(100vw / 1024 * 203), 247px);
   background-color: var(--main-color);
   margin-right: 2rem;
 }
@@ -72,12 +74,12 @@ section {
 /* About */
 h1 {
   font-size: 60px;
-  font-weight: 700 bold;
+  font-weight: 700;
   color: var(--main-color);
 }
 
 h4 {
-  font-weight: 900px;
+  font-weight: 900;
   color: var(--paragraph-color);
 }
 
@@ -130,7 +132,7 @@ li {
 
 /* Code Example */
 .code {
-  width: 80%;
+  max-width: 330px;
 }
 
 /* Contact */
@@ -143,6 +145,7 @@ li {
 .contact-list li {
   display: flex;
   align-items: center;
+  font-size: clamp(10px, calc(100vw / 900 * 10), 12px);
 }
 
 .telephone::before {
@@ -184,4 +187,54 @@ li {
 
 .javascript::after {
   content: "••";
+}
+
+.projects img {
+  width: 80%;
+}
+
+.arrows {
+  transform: scale(0.1);
+}
+
+.intro-video {
+  width: clamp(180px, calc(100vw / 1024 * 180), 270px);
+  height: clamp(105px, calc(100vw / 1024 * 105), 150px);
+}
+
+@media only screen and (max-width: 1024px) {
+  .photo img {
+    width: 270px;
+  }
+  
+  .box {
+    width: 30px;
+    height: 203px;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    display: block;
+  }
+
+  .photo img {
+    width: 330px;
+  }
+  
+  .box {
+    width: 50px;
+    height: 247px;
+    margin-right: 2rem;
+  }
+
+  .contact-list li {
+    font-size: 12px;
+  }
+
+  .intro-video {
+    width: 400px;
+    height: 225px;
+  }
 }
