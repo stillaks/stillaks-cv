@@ -106,7 +106,6 @@ p {
 
 /* Work-experience */
 .work-experience {
-  width: 45%;
   margin-top: 20px;
 }
 
@@ -162,4 +161,33 @@ li {
 
 .address::before {
   content: url("./images/address.svg");
+}
+
+/* Skills */
+.skills-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills-list li::after {
+  font-size: 30px;
+  color: var(--main-color);
+  margin-left: 10%;
+}
+
+.physics-experiments::after {
+  content: "•••••";
+}
+
+.english::after {
+  content: "••••";
+}
+
+.python::after {
+  content: "•••";
+}
+
+.javascript::after {
+  content: "••";
 }
