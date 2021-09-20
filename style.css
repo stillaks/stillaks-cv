@@ -29,7 +29,7 @@ main {
 }
 
 section {
-  margin: 35px 35px 35px 35px;
+  margin: 35px 25px 35px 25px;
 }
 
 .big-part {
@@ -37,7 +37,7 @@ section {
 }
 
 .small-part {
-  width: 30%;
+  width: 40%;
 }
 
 .long-underline {
@@ -141,17 +141,25 @@ li {
 }
 
 /* Contact */
+.contact-list li::before {
+  margin-right: 10px;
+  display: inline-block;
+  transform: scale(.6);
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+}
+
 .telephone::before {
   content: url("./images/phone.svg");
-  margin-right: 20px;
 }
 
 .email::before {
   content: url("./images/mail.svg");
-  margin-right: 20px;
 }
 
 .address::before {
   content: url("./images/address.svg");
-  margin-right: 20px;
 }
