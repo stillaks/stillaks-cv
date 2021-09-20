@@ -19,6 +19,7 @@ body {
 }
 
 main {
+  display: flex;
   width: 80%;
   margin: 0 auto;
   padding: 2rem 4rem;
@@ -28,13 +29,25 @@ main {
 }
 
 section {
-  width: 45%;
-  margin: 40px 40px 0 0;
+  margin: 35px 35px 35px 35px;
+}
+
+.big-part {
+  width: 70%;
+}
+
+.small-part {
+  width: 30%;
+}
+
+.long-underline {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .short-underline {
-  width: 50%;
-  margin-top: 5px;
+  width: 90%;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
