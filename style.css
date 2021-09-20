@@ -55,9 +55,7 @@ section {
 /* Avatar */
 .photo {
   display: flex;
-  width: 45%;
   align-items: center;
-  justify-content: space-between;
 }
 
 .photo img {
@@ -68,6 +66,7 @@ section {
   width: 50px;
   height: 247px;
   background-color: var(--main-color);
+  margin-right: 2rem;
 }
 
 /* About */
@@ -130,14 +129,8 @@ li {
 }
 
 /* Code Example */
-.code-img {
-  width: 100%;
-}
-
-.codewars {
-  text-decoration: none;
-  color: var(--year-color);
-  font-size: 12px;
+.code {
+  width: 80%;
 }
 
 /* Contact */

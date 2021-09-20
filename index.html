@@ -5,11 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akerke Otarbayeva - CV</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.2.0/styles/base16/github.min.css">
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.2.0/highlight.min.js"></script>
+  <!-- and it's easy to individually load additional languages -->
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.2.0/languages/go.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </head>
 <body>
   <main>
     <section class="big-part">
-      <section class="photo"> 
+      <section class="photo">
         <aside class="box"></aside>
         <img src="./images/akerke.jpeg" alt="">
       </section>
@@ -45,8 +50,27 @@
       <section class="code-example">
         <h4>CODE EXAMPLE</h4>
         <img class="long-underline" src="./images/long-underline.svg" alt="">
-        <a class="codewars" href="https://www.codewars.com/users/stillaks/completed_solutions">codewars.com</a>
-        <img class="code-img" src="./images/code-example.JPG" alt="">
+        <pre class="code">
+          <code>
+function fridayTheThirteenths(start, end) {
+  end = end || start;
+  let date = new Date(start, 0, 13);
+  let fridays13 = [];
+
+  for (let year = start; year <= end; year++) {
+    date.setFullYear(year);
+    for (let month = 0; month < 12; month++) {
+      date.setMonth(month);
+      if (date.getDay() === 5) {
+        const strDate = `${date.getMonth() + 1}/13/${date.getFullYear()}`;
+        fridays13.push(strDate);
+      }
+    }
+  }
+  return fridays13.join(" ");
+}
+          </code>
+        </pre>
       </section>
       <section class="projects">
         <h4>PROJECTS</h4>
