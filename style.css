@@ -238,3 +238,30 @@ li {
     height: 225px;
   }
 }
+
+/* Footer */
+footer  {
+  z-index: -1;
+  background-color: rgba(187, 122, 59, 0.3);
+}
+
+.footer-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 4rem 18rem;
+}
+
+.footer-year {
+  color: var(--main-color);
+}
+
+.rs-school-icon {
+  width: 6rem;
+}
+
+.github-icon {
+  width: 3rem;
+}
