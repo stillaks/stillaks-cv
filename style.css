@@ -241,7 +241,6 @@ li {
 
 /* Footer */
 footer  {
-  z-index: -1;
   background-color: rgba(187, 122, 59, 0.3);
 }
 
