@@ -13,11 +13,11 @@
 </head>
 <body>
   <main>
-    <section class="big-part">
-      <section class="photo">
+    <div class="big-part">
+      <div class="photo">
         <aside class="box"></aside>
         <img src="./images/akerke.jpeg" alt="">
-      </section>
+      </div>
       <section class="about">
         <h1>AKERKE</h1>
         <h2 class="surname">OTARBAYEVA</h2>
@@ -57,9 +57,9 @@ function fridayTheThirteenths(start, end) {
   let date = new Date(start, 0, 13);
   let fridays13 = [];
 
-  for (let year = start; year <= end; year++) {
+  for (let year = start; year &lt;= end; year++) {
     date.setFullYear(year);
-    for (let month = 0; month < 12; month++) {
+    for (let month = 0; month &lt; 12; month++) {
       date.setMonth(month);
       if (date.getDay() === 5) {
         const strDate = `${date.getMonth() + 1}/13/${date.getFullYear()}`;
@@ -104,8 +104,8 @@ function fridayTheThirteenths(start, end) {
           </li>
         </ul>
       </section>
-    </section>
-    <section class="small-part">
+    </div>
+    <div class="small-part">
       <section class="education">
         <h4>EDUCATION</h4>
         <img class="short-underline" src="./images/short-underline.svg" alt="">
@@ -136,7 +136,7 @@ function fridayTheThirteenths(start, end) {
         <h4>SELF-INTRODUCTION</h4>
         <img class="short-underline" src="./images/short-underline.svg" alt="">
         <iframe class="intro-video" width="270" height="150" src="https://www.youtube.com/embed/FmgXT3RI2g8"
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+        title="YouTube video player" allow="accelerometer; autoplay;
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
       </section>
@@ -163,7 +163,7 @@ function fridayTheThirteenths(start, end) {
           <li class="address">Nur-Sultan 010000, Kazakhstan</li>
         </ul>
       </section>
-    </section>
+    </div>
   </main>
   <footer class="footer-wrapper">
       <a href="https://github.com/stillaks" target="_blank">
