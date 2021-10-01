@@ -1,0 +1,7 @@
+# Akerke Otarbayeva
+
+Phone: +7(708) 175 71 21 
+
+Email: [akerke.otarbayeva@gmail.com]
+
+Address: Nur-Sultan, Kazakhstan
