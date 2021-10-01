@@ -25,3 +25,10 @@ L.N.Gumilyov Eurasian National University - Astana, Kazakhstan.
   - English – Upper Intermediate
 - Computer skills (Python, JavaScript, HTML, CSS, LaTEX)
 - Skills in conducting physics experiments and analyzing data.
+
+### Certificates
+1. Certificate of intensive training on the topic “Development of advanced materials, novel devices and technology,” Scientific-Practical Materials Research Center of the National Academy of Sciences of Belarus.
+
+2. Participation certificate in the International Summer Scientific School “Nuclear and radiation physics,” Astana.
+
+3. Python for Everybody Specialization, University of Michigan, Coursera.
