@@ -32,3 +32,6 @@ L.N.Gumilyov Eurasian National University - Astana, Kazakhstan.
 2. Participation certificate in the International Summer Scientific School “Nuclear and radiation physics,” Astana.
 
 3. Python for Everybody Specialization, University of Michigan, Coursera.
+
+### Publications
+> Study of elastic scattering of deuterons from 6Li at energy 18 MeV, NEWS of the National Academy of Science of the Republic of Kazakhstan, 2017, -Vol.6, №1, P. 5-12.    
