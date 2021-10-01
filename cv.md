@@ -17,3 +17,11 @@ L.N.Gumilyov Eurasian National University - Astana, Kazakhstan.
 - Physics and math tutor for university and school students, 2013 - 2017. 
 - Tutor, International Department of Nuclear Physics, New Materials and Technologies, L.N.Gumilyov Eurasian National University, 09.03.2018 – 04.02.2019. 
 - Laboratory Assistant, Department of Physics, Nazarbayev University, 05.02.2019 – present. 
+
+### Skills 
+- Knowledge of languages:  
+  - Kazakh – native 
+  - Russian – fluent 
+  - English – Upper Intermediate
+- Computer skills (Python, JavaScript, HTML, CSS, LaTEX)
+- Skills in conducting physics experiments and analyzing data.
