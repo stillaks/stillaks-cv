@@ -202,6 +202,30 @@ li {
   height: clamp(105px, calc(100vw / 1024 * 105), 150px);
 }
 
+/* Footer */
+.footer-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(187, 122, 59, 0.3);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.footer-year {
+  color: var(--main-color);
+}
+
+.rs-school-icon {
+  width: 6rem;
+}
+
+.github-icon {
+  width: 3rem;
+}
+
 @media only screen and (max-width: 1024px) {
   .photo img {
     width: 270px;
@@ -237,4 +261,30 @@ li {
     width: 400px;
     height: 225px;
   }
+
+  .footer-year {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: clamp(40px, calc(100vw / 320 * 40), 60px);
+  }
+
+  .photo img {
+    width: clamp(200px, calc(100vw / 320 * 200), 330px);
+  }
+  
+  .box {
+    width: 50px;
+    height: 247px;
+    margin-right: 0.5rem;
+  }
+
+  .intro-video {
+    width: clamp(220px, calc(100vw / 320 * 220), 380px);
+    height: clamp(120px, calc(100vw / 320 * 120), 200px);
+  }
+
 }
