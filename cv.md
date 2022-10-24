@@ -31,6 +31,26 @@ L.N.Gumilyov Eurasian National University - Astana, Kazakhstan.
 - Computer skills (Python, JavaScript, HTML, CSS, LaTEX)
 - Skills in conducting physics experiments and analyzing data.
 
+### Code examples
+
+```function fridayTheThirteenths(start, end) {
+  end = end || start;
+  let date = new Date(start, 0, 13);
+  let fridays13 = [];
+
+  for (let year = start; year <= end; year++) {
+    date.setFullYear(year);
+    for (let month = 0; month < 12; month++) {
+      date.setMonth(month);
+      if (date.getDay() === 5) {
+        const strDate = `${date.getMonth() + 1}/13/${date.getFullYear()}`;
+        fridays13.push(strDate);
+      }
+    }
+  }
+  return fridays13.join(" ");
+```
+
 ### Certificates
 1. Certificate of intensive training on the topic “Development of advanced materials, novel devices and technology,” Scientific-Practical Materials Research Center of the National Academy of Sciences of Belarus.
 
