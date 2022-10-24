@@ -8,6 +8,9 @@ Telegram: [@stillaks]
 
 Address: Nur-Sultan, Kazakhstan
 
+### Summary
+I am Akerke Otarbayeva. I am from Kazakhstan, from Nur-Sultan. I work as a Laboratory Assistant at the Physics Department of Nazarbayev University. I am quite experienced in setting up experiments, working with various experimental applications, analyzing data and writing manuals for experiments. In my free time, I like learning programming languages.
+
 ### Education 
 **M.S.:  Nuclear physics, 2017**, 
 L.N.Gumilyov Eurasian National University - Astana, Kazakhstan. 
