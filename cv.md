@@ -32,7 +32,6 @@ L.N.Gumilyov Eurasian National University - Astana, Kazakhstan.
 - Skills in conducting physics experiments and analyzing data.
 
 ### Code examples
-
 ```function fridayTheThirteenths(start, end) {
   end = end || start;
   let date = new Date(start, 0, 13);
